@@ -1,1 +1,1 @@
-This is a license file.
+This is a license file. Editing the license file. 
