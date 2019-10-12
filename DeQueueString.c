@@ -24,7 +24,7 @@ int isEmpty(QUEUE q){
 
 void insertR(QUEUE *q, char ele[]){
 	if (isFull(*q)){
-		printf("Queue full!\n");
+		printf("The Queue full!\n");
 	}
 	if (q->f == -1){
 		q->f = 0;
@@ -34,7 +34,7 @@ void insertR(QUEUE *q, char ele[]){
 
 void insertF(QUEUE *q, char ele[]){
 	if (q->f < 1){
-		printf("Cannot add from front\n");
+		printf("Can't add from front\n");
 	}
 	else strcpy(q->s[--(q->f)], ele);
 }
