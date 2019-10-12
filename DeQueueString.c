@@ -34,7 +34,7 @@ void insertR(QUEUE *q, char ele[]){
 
 void insertF(QUEUE *q, char ele[]){
 	if (q->f < 1){
-		printf("Can't add from front\n");
+		printf("Can'ttttt add from front\n");
 	}
 	else strcpy(q->s[--(q->f)], ele);
 }
