@@ -15,6 +15,7 @@ class MatrixTest{
 		Scanner sc = new Scanner(System.in);
 		int i, j;
 		System.out.println("Enter the elements of the matrix");
+		System.out.println("Enter elements in row wise order:");
 		for(i = 0; i < arr.length; i++){
 			for(j = 0; j < arr.length; j++){
 				arr[i][j] = sc.nextInt();
